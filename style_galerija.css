@@ -1,0 +1,98 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header{
+    display: block;
+    width: 100%;
+}
+
+.header_top{
+    padding:0 0 3px 25px;
+    background-color: #7efc00;
+    height: 30px;
+}
+
+.pocetna_slika{
+    background-image: url("slike/geran-de-klerk-bKhETeDV1WM-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul img{
+    margin-right:10px ;
+    float: right;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+h1{
+    margin: 10px;
+}
+
+
+section{
+    overflow: hidden;
+}
+
+
+figure {
+    padding: 0.5em;
+    margin: 0 1em 0.5em 1em;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+figure img{
+    width: 100%;
+}
+
+figcaption{
+    font-size: 90%;
+}
+
+/* CCV FOR FOOTER*/
+
+footer{
+    background-color: #7efc00;
+    clear: both;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+footer img{
+    width: 20px;
+}

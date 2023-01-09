@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="slike\logo\icons8-bear-footprint-16.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Zoo Hrvatska</title>
+
+
+</head>
+<body>
+
+    <div class="header_top">
+        <p><img src="slike\logo\telephone.png" style="width:19px; margin-top:4px; margin-right:6px"> +38512302198
+        <a href="https://www.instagram.com/zagrebzoo/?hl=hr" target="_blank">
+            <img src="slike\logo\instagram_logo.png" title="instagram" alt="instagram" style="width:19px; padding-left: 20px;">
+        </a>
+        <a href="https://www.facebook.com/zoozagreb/" target="_blank">
+            <img src="slike\logo\facebook.png" title="facebook" alt="facebook" style="width:19px; padding-left: 5px; padding-right: 5px;">
+        </a>
+        <a href="https://www.youtube.com/@zagrebzooVIDEO" target="_blank">
+            <img src="slike\logo\48968.png" title="youtube" alt="youtube" style="width:19px;">
+        </a>
+        <span style="float: right; padding: 7px 5px 0 0;">USTANOVA ZOOLOŠKI VRT GRADA ZAGREBA, Ulica Fakultetsko dobro 1</span>
+        </p>
+    </div>
+
+    <nav>
+        <ul>
+            <a href="index.html">
+                <img src="slike\logo\ZgZooLogoW4-300x183.png" width="4.5%" >
+            </a>
+            <li>
+                <a href="index.html">Početna stranica</a>
+            </li>
+            <li>
+                <a href="vijesti.html">Vijesti</a>
+            </li>
+            <li>
+                <a href="galerija.html">Galerija</a>
+            </li>
+            <li>
+                <a href="o_nama.html">O nama</a>
+            </li>
+            <li>
+                <a href="kontakti.html">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="pocetna_slika"></div>
+    </header>
+
+    <main>
+        <h1 style="font-size:48px; text-align: center;">Kako do nas</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.471191906403!2d16.017290915758537!3d45.82184801752792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d7c71838920f%3A0x26d48884c8920a0d!2sZoolo%C5%A1ki%20vrt%20grada%20Zagreba!5e0!3m2!1shr!2shr!4v1672655798840!5m2!1shr!2shr"
+         width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+        <div style="text-align: center;">
+            
+            <p style="text-align: center;">Nešto te dodatno zanima?<br>
+            Napiši nam poruku!</p>
+
+            <form action="http://work2.eburza.hr/pwa/responzive-page/send-contact.php" id="contact_form" name="contact_form" method="POST">
+                <label for="ime">Ime *</label><br>
+                <input type="text" id="ime" name="ime" placeholder="Vaše ime je..." required><br>
+
+                <label for="prezime">Prezime *</label><br>
+                <input type="text" id="prezime" name="prezime" placeholder="Vaše prezime je..." required><br>
+            
+                <label for="e_mail">E-mail *</label><br>
+                <input type="email" id="e_mail" name="e_mail" placeholder="Vaš e-mail..." required><br>
+            
+                <label for="država">Država</label><br>
+                <select id="država" name="država">
+                    <option value="">Odaberi državu</option>
+                    <option value="HR" selected>Hrvatska</option>
+                    <option value="HU">Hungary</option>
+                    <option value="GER">Germany</option>
+                </select><br>
+
+                <label for="subject">Tema</label><br>
+                <textarea id="subject" name="subject" placeholder="Napiši što te zanima..."
+                style="height:200px"></textarea><br>
+
+                <input type="submit" value="Submit">
+   
+
+            </form>
+        </div>  
+        </main>
+
+        <footer>
+            <p>Copyright © 2022 Tin Kenđel.
+            <a href="https://github.com/TinKendel?tab=repositories">
+                <img src="slike\logo\github-mark-white.png" title="Github" alt="Github">
+            </a>
+            </p>
+        </footer>
+</body>
+</html>

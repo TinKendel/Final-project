@@ -1,0 +1,199 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header{
+    width: 100%;
+}
+
+.header_top{
+    padding:0 0 3px 25px;
+    background-color: #7efc00;
+    height: 30px;
+}
+
+.pocetna_slika{
+    background-image: url("slike/geran-de-klerk-bKhETeDV1WM-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 800px;
+}
+
+/*NAVIGACIJA*/
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+ul img{
+    margin-right:10px ;
+    float: right;
+}
+
+ul li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+h1{
+    margin: 10px;
+}
+
+main{
+    padding: 2% 0 0 0;
+}
+
+
+section{
+    overflow: hidden;
+}
+
+div.info{
+    float: left;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 5px;
+    width: 93%;
+    /*border: 1px solid darkgray;*/
+}
+
+div.info img{
+    width: 100%;
+}
+
+@media (min-width: 300px){
+    div.info{
+        width:30%;
+    }
+}
+
+/*VIJESTI*/
+
+div.vijesti{
+    float: left;
+    margin: 10px 10px 10px 30px;
+    padding: 10px 5px;
+    width: 95%;
+    /*border: 1px solid darkgray;*/
+    text-align: center;
+}
+
+div.vijesti img{
+    padding-top: 20px;
+    width: 35%;
+}
+
+div.vijesti iframe{
+    padding-top: 15px;
+}
+
+
+/* O NAMA */
+
+ol{
+    line-height: 40px;
+    padding-top: 20px;
+    padding-left: 115px ;
+    list-style: disc;
+}
+
+/*KONTAKTI.HTML*/
+
+
+
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 14px;
+    border: 1px solid rgba(204, 204, 204, 0.527);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 94%;
+}
+
+input[type=submit] {
+	background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 15px;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+/* CCV FOR FOOTER*/
+
+footer{
+    background-color: #7efc00;
+    clear: both;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+footer img{
+    width: 20px;
+}
+
+/*mobile*/
+
+
+
+/*@media (min-width: 200px) and (max-width: 768px) {
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    ul img{
+        margin-right:10px ;
+        float: right;
+    }
+    
+    ul li{
+        float:left;
+    }
+
+    .header_top{
+        padding:0;
+        background-color: #7efc00;
+        height: 30px;
+    }
+
+}*/
+
+
+
+
